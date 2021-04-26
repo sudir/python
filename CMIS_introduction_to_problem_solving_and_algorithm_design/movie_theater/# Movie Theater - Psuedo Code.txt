@@ -1,0 +1,46 @@
+# Usecase for program
+Program to compute price of theater ticket
+
+
+# Prompt for user input of age 
+agevar = eval(input("whats your age? For ex. 36:\n")) 
+
+# Is movie a 3D movie
+movie_3d = input("Is move a 3D movie, type (y) for yes or (n) for no:\n") 
+
+
+# Price of a movie is $10.00, if its 3d then $15.00 for surcharge
+
+# Check variable movie_price_var for valid value and assign price accordingly
+If movie_3d = y
+    set movie_price_var = 15.00
+    set moviestatement = "Your movie is 3d"
+elif movie_3d = Y
+    set movie_price_var = 15.00
+    set moviestatement = "Your movie is 3d"
+elif movie_3d = n
+     set movie_price_var = 10.00
+     set moviestatement = "Your movie is not 3d"
+elif movie_3d = N
+     set movie_price_var = 10.00
+     set moviestatement = "Your movie is not 3d"
+ else
+     print("You've entered an invalid response, please try again")
+     sys(exit)
+
+# Computations Needed
+# 50% Discount for children and 20% discount for seniors
+# Children ages 2 - 12
+if agevar <= 2 <= 12:
+  compute movie_price_var - 50% 
+elif agevar > 59
+compute movie_price_var - 20%
+ else
+   # Do nothing, movie price stays normal price depending rather its 3d or not
+
+# Return results
+Print the final cost of the movie
+Price break down
+Rather movie is 3d or not
+
+

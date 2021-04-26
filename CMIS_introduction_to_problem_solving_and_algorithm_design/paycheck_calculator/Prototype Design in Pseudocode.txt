@@ -1,0 +1,28 @@
+Prototype Design in Pseudocode
+
+Usecase for script:
+We ultimately want to calculate a paycheck for final pay with commision added
+
+
+# Set hourly pay to $40
+hourlypay = 40.00
+
+# Need hours worked provided
+prompt user for input x number of hours worked
+
+# Generate a variable for calculated pay by multiplying hours worked x hourly rate
+pay=( ? * 40.00)
+
+# Set a rate for every sale made
+sales = 10.00
+
+# Need X number of sales provided 
+prompt user for input x number of sales
+
+# Calculate 50% of sale total to generate variable for commission pay
+var3 = (0.5 * ?)
+
+
+Render final results in the form of weekly pay + commission:
+Paycheck=pay+var3
+

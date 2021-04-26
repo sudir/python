@@ -1,0 +1,29 @@
+use case:
+Python program to compute the cost of carpet
+
+prompt user input for 3 values:
+- length
+- feet
+- grade of carpet
+
+Function(length, feet, grade)
+    if grade == standard
+      cost=(length x feet x standard)   
+      print(cost)
+    elif grade == medium
+      cost=(length x feet x medium)   
+      print(cost)
+    elif grade == premium
+      cost=(length x feet x premium)   
+      print(cost)
+
+
+
+Notes: 
+Three grades of carpet 
+- Standard grade is $5.00 per square foot
+- Medium grade is $10.00 per square foot
+- Premium Grade is $20.00 per square foot
+
+
+
